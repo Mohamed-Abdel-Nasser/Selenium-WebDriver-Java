@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Swag" >
+    <test name="Swag test" >
+        <classes>
+            <class name="Tests.LoginTest"></class >
+            <class name="Tests.HomeTest"></class>
+            <class name="Tests.PaymentAndCheckoutTest"></class>
+            <class name="Tests.CustomerDetailsTest"></class>
+            <class name="Tests.ProcessInformationTest"></class>
+            <class name="Tests.ThankYouPageTest"></class>
+            
+            
+        </classes>
+    </test>
+</suite>
